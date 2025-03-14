@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PlayerVaultX - Game Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <a href="contact.html">Contact Us</a>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js"></script>
+</head>
+<body>
+    <h1>Welcome to PlayerVaultX</h1>
+
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search for a game..." onkeyup="searchGames()">
+    </div>
+
+    <div class="game-list" id="gameList">
+        <div class="game" data-name="rdr 2">
+            <img src="images/rdr2.jpg" alt="Red Dead Redemption 2">
+            <h2>🔥 Red Dead Redemption 2</h2>
+            <p class="tagline">⭐ Outlaws to the end — the Wild West has never felt so alive.</p>
+            <p class="price">💸 ₹300</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        <div class="game" data-name="re 1">
+            <img src="images/re.jpg" alt="Resident Evil 1">
+            <h2>🔥 Resident Evil</h2>
+            <p class="tagline">⭐ The horror that started it all — face your fears!</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        <div class="game" data-name="re 2">
+            <img src="images/re2.jpg" alt="Resident Evil 2">
+            <h2>🔥 Resident Evil 2</h2>
+            <p class="tagline">⭐ Survival is just the beginning — Raccoon City awaits.</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        <div class="game" data-name="re 3">
+            <img src="images/re3.jpg" alt="Resident Evil 3">
+            <h2>🔥 Resident Evil 3</h2>
+            <p class="tagline">⭐ Run from Nemesis — or become his next victim.</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        
+        <div class="game" data-name="re 4">
+            <img src="images/re4.jpg" alt="Resident Evil 4">
+            <h2>🔥 Resident Evil 4</h2>
+            <p class="tagline">⭐ Rescue the President's daughter, survive the nightmare.</p>
+            <p class="price">💸 ₹200</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        
+        <div class="game" data-name="re 5">
+            <img src="images/re5.jpg" alt="Resident Evil 5">
+            <h2>🔥 Resident Evil 5</h2>
+            <p class="tagline">⭐ Fight the bio-terror — action-packed co-op awaits.</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        
+        <div class="game" data-name="re 6">
+            <img src="images/re6.jpg" alt="Resident Evil 6">
+            <h2>🔥 Resident Evil 6</h2>
+            <p class="tagline">⭐ Four stories, one outbreak — can you survive them all?</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        
+        <div class="game" data-name="re 7">
+            <img src="images/re7.jpg" alt="Resident Evil 7">
+            <h2>🔥 Resident Evil 7</h2>
+            <p class="tagline">⭐ Step into the Baker family’s nightmare — will you escape?</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        
+        <div class="game" data-name="re 8">
+            <img src="images/re8.jpg" alt="Resident Evil 8">
+            <h2>🔥 Resident Evil 8</h2>
+            <p class="tagline">⭐ Face new horrors and uncover Ethan’s fate.</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        
+        <div class="game" data-name="call of duty modern warfare 3">
+            <img src="images/codwf3.jpg" alt="Call of Duty Modern Warfare 3">
+            <h2>🔥 Call of Duty Modern Warfare 3</h2>
+            <p class="tagline">⭐ The world is on the brink — only you can stop it.</p>
+            <p class="price">💸 ₹200</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        
+        <div class="game" data-name="gta v enhanced">
+            <img src="images/gtav.jpg" alt="GTA V Enhanced Edition">
+            <h2>🔥 GTA V Enhanced Edition</h2>
+            <p class="tagline">⭐ Los Santos is yours — steal, race, and rule.</p>
+            <p class="price">💸 ₹300</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        <div class="game" data-name="forza horizon 5">
+            <img src="images/fh5.jpg" alt="Forza Horizon 5">
+            <h2>🔥 Forza Horizon 5</h2>
+            <p class="tagline">⭐ Race through Mexico’s vibrant open world — feel the speed.</p>
+            <p class="price">💸 ₹300</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        <div class="game" data-name="far cry 5">
+            <img src="images/fc5.jpg" alt="Far Cry 5">
+            <h2>🔥 Far Cry 5</h2>
+            <p class="tagline">⭐ Lead the resistance, liberate Hope County.</p>
+            <p class="price">💸 ₹100</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+        <div class="game" data-name="spider man remastered">
+            <img src="images/spiderman.jpg" alt="Spider-Man Remastered">
+            <h2>🔥 Spider-Man Remastered</h2>
+            <p class="tagline">⭐ Be greater. Swing faster. Save New York.</p>
+            <p class="price">💸 ₹200</p>
+            <div class="status in-stock">In Stock</div>
+        </div>
+    </div>
+
+    <script>
+        function searchGames() {
+            let input = document.getElementById('search').value.toLowerCase();
+            let games = document.querySelectorAll('.game');
+            
+            games.forEach(game => {
+                let name = game.getAttribute('data-name');
+                if (name.includes(input)) {
+                    game.style.display = 'block';
+                } else {
+                    game.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

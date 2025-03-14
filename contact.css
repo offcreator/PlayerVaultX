@@ -1,0 +1,83 @@
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ddd;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact section */
+#contact {
+    background: #1e2a38;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+}
+
+h2 {
+    color: #00e5ff;
+    text-shadow: 0 0 15px #00e5ff;
+}
+
+input,
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00e5ff;
+    border-radius: 5px;
+    background: #1e2a38;
+    color: #00e5ff;
+}
+
+button {
+    background: #00e5ff;
+    color: #1e2a38;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #00b3cc;
+}
+
+/* Popup styling */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1e2a38;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
+    text-align: center;
+    z-index: 10;
+}
+
+.popup h3 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.popup button {
+    background: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background: #45a049;
+}
